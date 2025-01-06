@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.be7e71bc.js",
+    "main.js": "/personal-homepage/static/js/main.fe1075c3.js",
     "static/js/488.7cd2b61b.chunk.js": "/personal-homepage/static/js/488.7cd2b61b.chunk.js",
+    "static/media/picture.jpg": "/personal-homepage/static/media/picture.34fd0dc3e8bb049a791a.jpg",
+    "static/media/sunDark.svg": "/personal-homepage/static/media/sunDark.4de03ecf77be4c4c2e315a5460525bd2.svg",
+    "static/media/sunLight.svg": "/personal-homepage/static/media/sunLight.fc30c484d1ecbeb560bc16be83b864dd.svg",
     "index.html": "/personal-homepage/index.html",
-    "main.be7e71bc.js.map": "/personal-homepage/static/js/main.be7e71bc.js.map",
+    "static/media/github.svg": "/personal-homepage/static/media/github.a9062bf9626a38e8866f20e84ee3d71b.svg",
+    "static/media/alert.svg": "/personal-homepage/static/media/alert.a713ca8752dc53fb52f84490e49aabe3.svg",
+    "static/media/envelope.svg": "/personal-homepage/static/media/envelope.989ae1682343e29abc4cecce8d3d543d.svg",
+    "static/media/spinner.svg": "/personal-homepage/static/media/spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
+    "static/media/bullet.svg": "/personal-homepage/static/media/bullet.c28602c8be31d96b4a27bc3627dd6f6f.svg",
+    "main.fe1075c3.js.map": "/personal-homepage/static/js/main.fe1075c3.js.map",
     "488.7cd2b61b.chunk.js.map": "/personal-homepage/static/js/488.7cd2b61b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.be7e71bc.js"
+    "static/js/main.fe1075c3.js"
   ]
 }
