@@ -9,6 +9,7 @@ import { About } from "../features/About";
 import { Section } from "../features/Section";
 import { skills, toLearn } from "../data";
 import { Portfolio } from "../features/Portfolio";
+import { Footer } from "../features/Footer";
 
 function App() {
   const darkMode = useSelector(selectDarkMode);
@@ -28,6 +29,7 @@ function App() {
           skills={toLearn}
         />
         <Portfolio />
+        <Footer />
       </Container>
     </ThemeProvider>
   );
