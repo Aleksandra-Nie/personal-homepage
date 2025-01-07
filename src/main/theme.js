@@ -21,9 +21,6 @@ const colorName = {
     iron: "#D1D5DA4D",
     iron10: "#D1D5DA1A",
     darkGray: "#363636B8",
-
-
-
     mineShaft: "#252525",
 };
 
@@ -114,10 +111,10 @@ export const darkTheme = {
         linkTitle: colorName.white,
         underline: colorName.tranparentDarkBlue,
         link: colorName.dodgerBlue79,
-        linkHover: colorName.dodgerBlue,
     },
     shadow: boxShadow.shadow,
     divider: colorName.iron10,
     email: colorName.dodgerBlue,
     icon: colorName.dodgerBlue,
+    linkHover: colorName.dodgerBlue,
 };

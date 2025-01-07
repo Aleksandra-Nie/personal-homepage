@@ -6,7 +6,6 @@ import {
     Description,
     SocialMedia,
     IconLink,
-    Icon,
 } from "./styled";
 
 export const Footer = () => (
@@ -38,4 +37,4 @@ export const Footer = () => (
             ))}
         </SocialMedia>
     </Wrapper>
-)
+);

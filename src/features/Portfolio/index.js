@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Header } from "./Header";
 import { Projects } from "./Projects";
-import { fetchProjects, selectProjectsState } from "./Projects/portfolioSlice"
+import { fetchProjects, selectProjectsState } from "./Projects/portfolioSlice";
 import { useEffect } from "react";
 import { Wrapper } from "./styled";
 import { Loading } from "./Projects/Loading";
