@@ -6,22 +6,25 @@ const breakpoints = {
 };
 
 const colorName = {
-    mercury: "#E5E5E5",
     white: "#FFFFFF",
-    slateGray: "#6E7E91",
     whiteLilac: "#FBFBFE",
-    doveGray: "#6E6E6E",
-    mineShaft: "#252525",
-    scienceBlue: "#0366D6",
-    iron: "#D1D5DA4D",
-    iron10: "#D1D5DA1A",
-    dodgerBlue: "#2188FF",
-    dodgerBlue79: "#2189ffc9",
-    darkGrey: "#363636B8",
-    darkBlue: "#0366D680",
-    lightBlue: "#0366D633",
+    mercury: "#E5E5E5",
     transparentBlue: "#0367d833",
     tranparentDarkBlue: "#2189ff44",
+    lightBlue: "#0366D633",
+    darkBlue: "#0366D680",
+    scienceBlue: "#0366D6",
+    dodgerBlue: "#2188FF",
+    dodgerBlue79: "#2189ffc9",
+    slateGray: "#6E7E91",
+    doveGray: "#6E6E6E",
+    iron: "#D1D5DA4D",
+    iron10: "#D1D5DA1A",
+    darkGray: "#363636B8",
+
+
+
+    mineShaft: "#252525",
 };
 
 const boxShadow = {
@@ -80,7 +83,7 @@ export const darkTheme = {
     ...breakpoints,
     background: {
         main: colorName.mineShaft,
-        section: colorName.darkGrey,
+        section: colorName.darkGray,
     },
     themeButton: {
         background: colorName.doveGray,
@@ -104,7 +107,7 @@ export const darkTheme = {
     },
     portfolio: {
         border: colorName.iron10,
-        background: colorName.darkGrey,
+        background: colorName.darkGray,
         hover: colorName.darkBlue,
         header: colorName.white,
         description: colorName.white,
