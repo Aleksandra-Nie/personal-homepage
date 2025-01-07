@@ -28,7 +28,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 |               |                    |                                   | React Router: useParams, useLocation, useHistory   |
 
 ## Features
-The app is responsive on both website and mobile phone.
+
+👤 About Me
+A section with my profile photo and a brief introduction.
+
+🛠️ Skills
+A list of my current technical skills.
+
+🚀 Goals
+The technologies I plan to learn next to enhance my expertise.
+
+📂 Portfolio
+Showcase of projects pulled from my GitHub API, demonstrating my work and abilities.
+
+📧 Contact
+Links to my social media profiles and email for easy communication.
+
+📱 Responsive Design
+A design optimized for a smooth experience across all devices.
+
+🌓 Theme Toggle
+A feature to switch between light and dark modes for personalized viewing.
 
 ## Available Scripts
 
