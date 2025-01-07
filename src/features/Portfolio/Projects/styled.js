@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
   transition: 0.5s;
 
   &:hover{
-    border: 6px solid ${({ theme }) => theme.portfolio.hover};
+    border: 6px solid ${({ theme }) => theme.linkHover};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {

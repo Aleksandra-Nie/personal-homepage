@@ -69,14 +69,11 @@ export const lightTheme = {
         linkTitle: colorName.slateGray,
         underline: colorName.transparentBlue,
         link: colorName.scienceBlue,
-        linkHover: colorName.scienceBlue,
-
     },
     shadow: boxShadow.shadow,
-    bullet: colorName.scienceBlue,
     divider: colorName.iron,
-    github: colorName.scienceBlue,
-    spinner: colorName.scienceBlue,
+    icon: colorName.scienceBlue,
+    linkHover: colorName.scienceBlue,
 };
 
 export const darkTheme = {
@@ -117,8 +114,7 @@ export const darkTheme = {
         linkHover: colorName.dodgerBlue,
     },
     shadow: boxShadow.shadow,
-    bullet: colorName.dodgerBlue,
     divider: colorName.iron10,
-    github: colorName.dodgerBlue,
-    spinner: colorName.dodgerBlue,
+    email: colorName.dodgerBlue,
+    icon: colorName.dodgerBlue,
 };

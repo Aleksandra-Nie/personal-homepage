@@ -23,7 +23,7 @@ export const Caption = styled.p`
 `;
 
 export const GithubIcon = styled(GitHub)`
-  color: ${({ theme }) => theme.github};
+  color: ${({ theme }) => theme.icon};
   width: 40px;
   height: 40px;
 `;

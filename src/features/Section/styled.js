@@ -65,7 +65,7 @@ export const ListItem = styled.li`
 `;
 
 export const Bullet = styled(BulletIcon)`
-  color:${({ theme }) => theme.bullet};
+  color:${({ theme }) => theme.icon};
   width: 9px;
   height: 9px;
   margin-right: 16px;

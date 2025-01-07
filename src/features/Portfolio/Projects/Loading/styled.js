@@ -16,7 +16,7 @@ export const Message = styled.p`
 `;
 
 export const SpinnerIcon = styled(SpinnerSign)`
-  color:${({ theme }) => theme.spinner};
+  color:${({ theme }) => theme.icon};
   width: 160px;
   height: 160px;
   animation: 1s linear normal infinite rotation;
