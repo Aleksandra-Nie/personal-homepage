@@ -1,15 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-html {
-box-sizing: border-box;
-}
+  html {
+    box-sizing: border-box;
+  }
 
-*, ::before, ::after {
-box-sizing: inherit;
-}
+  *, ::before, ::after {
+    box-sizing: inherit;
+  }
 
-body {
+  body {
     background-color: ${({ theme }) => theme.background.main};
     transition: background 0.5s;
     font-family: "Inter", sans-serif;

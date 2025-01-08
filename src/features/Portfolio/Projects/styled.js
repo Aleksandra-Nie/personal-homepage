@@ -80,7 +80,7 @@ export const Link = styled.a`
   word-break: break-word;
   
   &:hover{
-    text-decoration-color: ${({ theme }) => theme.portfolio.linkHover};
+    text-decoration-color: ${({ theme }) => theme.linkHover};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
