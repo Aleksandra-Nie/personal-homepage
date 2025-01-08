@@ -2,6 +2,8 @@
 
 This is my personal portfolio website, created in React. It highlights my skills, projects, contact details, and much more. Discover my experience and get to know more about me through this online resume.
 
+![personal-homepage](images/demo.gif)
+
 ## Demo
 
 https://aleksandra-nie.github.io/personal-homepage/
