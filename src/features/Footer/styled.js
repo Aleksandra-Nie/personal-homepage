@@ -41,6 +41,7 @@ export const Contact = styled.a`
 `;
 
 export const Description = styled.p`
+  max-width: 670px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25.2px;
@@ -84,7 +85,7 @@ export const IconLink = styled.div`
     }
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
     width: 32px;
     height: 32px;
   }

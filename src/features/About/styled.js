@@ -19,6 +19,7 @@ export const Wrapper = styled.header`
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-bottom: 48px;
   }
 `;
 

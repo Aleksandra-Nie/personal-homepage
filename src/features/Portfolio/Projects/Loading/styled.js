@@ -12,7 +12,17 @@ export const Message = styled.p`
   font-size: 20px;
   line-height: 28px;
   color:${({ theme }) => theme.text.header};
-  margin: 88px 0 48px ;
+  margin: 88px 0 48px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    font-size: 18px;
+    margin-top: 48px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 16px;
+    margin-top: 48px;
+  }
 `;
 
 export const SpinnerIcon = styled(SpinnerSign)`
@@ -28,5 +38,15 @@ export const SpinnerIcon = styled(SpinnerSign)`
     to{
       transform: rotate(360deg);
     }
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    height: 130px;
+    width: 130px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    height: 100px;
+    width: 100px;
   }
 `;

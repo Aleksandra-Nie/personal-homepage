@@ -3,9 +3,15 @@ import { ReactComponent as EnvelopeIcon } from '../../../images/envelope.svg';
 
 export const Wrapper = styled.div`
   max-width: 633px;
+  margin-top: 64px;
+  
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
+    max-width: 991px;
+    margin-top: 0;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
-    max-width: 991px;
+    margin-top: 0;
   }
 `;
 
@@ -34,6 +40,7 @@ export const Title = styled.h1`
 `;
 
 export const Description = styled.p`
+  max-width: 650px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -43,6 +50,7 @@ export const Description = styled.p`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
     font-size: 17px;
     line-height: 23.8px;
+    max-width: 570px
   }
 `;
 
@@ -59,7 +67,7 @@ export const Button = styled.a`
   display: inline-flex;
   align-items: center;
   gap: 16px;
-  transition: 0.5s;
+  transition: box-shadow 0.5s;
 
   &:hover{
     box-shadow: ${({ theme }) => theme.button.hoverShadow};

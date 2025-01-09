@@ -12,6 +12,11 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.text.header};
   margin-top: 12px;
   margin-bottom: 8px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 18px;
+    margin: 0;
+  }
 `;
 
 export const Caption = styled.p`
@@ -20,10 +25,18 @@ export const Caption = styled.p`
   line-height: 28px;
   color: ${({ theme }) => theme.text.header};
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    font-size: 17px;
+  }
 `;
 
 export const GithubIcon = styled(GitHub)`
   color: ${({ theme }) => theme.icon};
   width: 40px;
   height: 40px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    width: 32px;
+  }
 `;

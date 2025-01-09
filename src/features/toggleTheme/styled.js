@@ -18,6 +18,7 @@ export const Button = styled.button`
   align-items: center;
   justify-content: flex-start;
   cursor: pointer;
+  outline-offset: 8px;
 `;
 
 export const Caption = styled.p`
@@ -26,7 +27,7 @@ export const Caption = styled.p`
   line-height: 1.3;
   color: ${({ theme }) => theme.text.paragraph};
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
     display: none;
   }
 `;

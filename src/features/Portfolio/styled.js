@@ -16,5 +16,6 @@ export const Wrapper = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0;
   }
 `;
