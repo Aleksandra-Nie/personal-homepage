@@ -1,4 +1,5 @@
 import { socialMedia } from "./socialMedia";
+import { email } from "../email";
 import {
     Wrapper,
     Caption,
@@ -11,14 +12,14 @@ import {
 export const Footer = () => (
     <Wrapper>
         <Caption>LET'S TALK!</Caption>
-        <Contact href="mailto:aniedzialkowska2@gmail.com">
-            aniedzialkowska2@gmail.com
+        <Contact href={`mailto: ${email}`}>
+            {email}
         </Contact>
         <Description>
             I’m always open to new projects and would love to collaborate!
-            If you're working on a website, dashboard, or mobile app and need help bringing your ideas to life, feel free to reach out.
-            Whether it’s a responsive design or a fully functional app, I’m here to make your vision a reality.
-            Whenever I have the time, I’m ready to take on exciting new challenges and help you turn your ideas into something great.
+            If you're working on a&nbsp;website, dashboard, or mobile app and need help bringing your ideas to life, feel free to reach out.
+            Whether it’s a&nbsp;responsive design or a&nbsp;fully functional app, I’m here to make your vision a&nbsp;reality.
+            Whenever I&nbsp;have the time, I’m ready to take on exciting new challenges and help you turn your ideas into something great.
             Let’s create something amazing together! 🙌
         </Description>
         <SocialMedia>
