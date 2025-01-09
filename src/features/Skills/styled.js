@@ -25,7 +25,7 @@ export const Header = styled.h2`
   padding: 0;
   margin: 0;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.tabletMax}) {
     font-size: 26px;
   }
   
@@ -82,10 +82,10 @@ export const Divider = styled.div`
   width: 100%;
   height: 1px;
   background-color: ${({ theme }) => theme.divider};
-  margin: 15px auto 32px;
+  margin: 17px auto 32px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    margin-top: 12px;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}) {
+    margin: 12px auto 0;
   }
 `;
 
