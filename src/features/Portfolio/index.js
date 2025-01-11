@@ -1,5 +1,4 @@
 import { useDispatch, useSelector } from "react-redux";
-import { Header } from "./Header";
 import { Projects } from "./Projects";
 import { fetchProjects, selectProjectsState } from "./Projects/portfolioSlice";
 import { useEffect } from "react";
@@ -15,21 +14,23 @@ export const Portfolio = () => {
         dispatch(fetchProjects());
     }, [dispatch]);
 
+    if (loading) {
+        return <Loading />;
+    }
+
+    if (error) {
+        return <Error />;
+    }
+
     return (
-        <>
-            <Header></Header>
-            {loading ? <Loading /> :
-                error ? <Error /> :
-                    <Wrapper>
-                        {projects.map(project => (<Projects
-                            key={project.id}
-                            title={project.name}
-                            description={project.description}
-                            demoLink={project.homepage}
-                            codeLink={project.html_url}
-                        />))}
-                    </Wrapper>
-            }
-        </>
+        <Wrapper>
+            {projects.map(project => (<Projects
+                key={project.id}
+                title={project.name}
+                description={project.description}
+                demoLink={project.homepage}
+                codeLink={project.html_url}
+            />))}
+        </Wrapper>
     )
 };
