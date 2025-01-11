@@ -10,6 +10,7 @@ import { Skills } from "../features/Skills";
 import { skills, toLearn } from "../data";
 import { Portfolio } from "../features/Portfolio";
 import { Footer } from "../features/Footer";
+import { Header } from "../features/Header";
 
 function App() {
   const darkMode = useSelector(selectDarkMode);
@@ -28,6 +29,7 @@ function App() {
           title="What I want to learn next 🚀"
           skills={toLearn}
         />
+        <Header />
         <Portfolio />
         <Footer />
       </Container>
