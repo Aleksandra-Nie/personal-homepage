@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { getDarkModeFromLocalStorage } from "../features/toggleTheme/themeLocalStorage";
 
 export const useTheme = () => {
-    const [darkMode, setDarkMode] = useState(null);
+    const [darkMode, setDarkMode] = useState(false);
 
     useEffect(() => {
         const storedMode = getDarkModeFromLocalStorage();
